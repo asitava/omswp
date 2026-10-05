@@ -1,0 +1,1 @@
+Omswp Organic responsive storefront demo. Open index.html in a browser. Includes external style.css, script.js interactions, and image assets cropped from the supplied screenshot. Product pricing by pack size and review/newsletter submission are demo-only; no backend/payment is connected.

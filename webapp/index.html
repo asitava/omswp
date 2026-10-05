@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Omswp Organic premium edible oils">
+    <title>Omswp Organic | Pure Goodness in Every Drop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <!-- <a class="brand" href="#home" aria-label="Omswp Organic home"><span class="brand-mark">M</span><span
+                class="brand-name">Omswp Organic</span></a> -->
+        <a class="brand" href="#home" aria-label="Omswp Organic home">
+            Omswp Organic
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="main-nav" aria-label="Main navigation"><a href="#home">Shop</a><a href="#premium-oils">Categories</a><a
+                href="#purity-story">About Us</a><a href="#customer-reviews">Reviews</a><a href="#footer-section">Contact</a></nav>
+        <div class="header-actions">
+            <form class="search-form" role="search">
+                <label class="visually-hidden" for="site-search">Search products</label>
+                <input id="site-search" type="search" placeholder="Search for products...">
+                <button type="submit" aria-label="Search"><i class="fa fa-search icon-button" aria-hidden="true"></i></button>
+            </form>
+            <button aria-label="Account" class="buttonHead"><i class="fa fa-user-o icon-button" aria-hidden="true"></i></button><button
+                class="icon-button cart-button" aria-label="Shopping cart"><i class="fa fa-shopping-cart icon-button"
+                    aria-hidden="true"></i><span class="cart-count">2</span></button>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-art" aria-hidden="true"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">Premium organic mustard oil</p>
+                <h1>Pure Goodness<br>in Every Drop</h1>
+                <p class="hero-description">Traditionally crafted. Naturally pure. For<br class="desktop-break"> a
+                    healthier tomorrow.</p>
+                <div class="rating-line"><span class="stars" aria-label="5 stars">★★★★★</span><span><strong>4.9/5</strong>
+                        (1,200+ Reviews)</span></div><a class="button button-gold" href="#premium-oils">Shop the
+                    Collection <span>→</span></a>
+                <div class="trust-row">
+                    <div class="trust-item"><span class="trust-icon">♧</span><span>100% Natural<br>&amp; Pure</span></div>
+                    <div class="trust-item"><span class="trust-icon">♜</span><span>Cold-Pressed<br>(No Chemicals)</span></div>
+                    <div class="trust-item"><span class="trust-icon">✓</span><span>Quality<br>Tested</span></div>
+                </div>
+            </div>
+            <div class="imageBlur"></div>
+            <!-- <div class="hero-side-note">Nature’s<br>Purest<br>Gift</div> -->
+            <div class="hero-pagination">
+                <button class="active" data-slide="0" aria-label="Hero slide 1"></button>
+                <button data-slide="1" aria-label="Hero slide 2"></button>
+                <button data-slide="2" aria-label="Hero slide 3"></button>
+            </div>
+        </section>
+
+        <!-- product section start -->
+        <section class="products-section section-pad" id="premium-oils">
+            <div class="section-heading-row">
+                <div>
+                    <h2>Our Premium Oils</h2>
+                    <p>Pure. Natural. Authentic.</p>
+                </div>
+                <div class="filter-tabs" role="group" aria-label="Filter products">
+                    <button class="filter-tab is-active" data-filter="all"><i class="fa fa-th" aria-hidden="true"></i>
+                        <span>All</span></button>
+                    <button class="filter-tab" data-filter="mustard"><i class="fa fa-tint" aria-hidden="true"></i><span>Mustard
+                            Oil</span></button>
+                    <button class="filter-tab" data-filter="black"><i class="fa fa-tint" aria-hidden="true"></i> <span>Black
+                            Seeds Oil</span></button>
+                    <button class="filter-tab" data-filter="yellow"><i class="fa fa-tint" aria-hidden="true"></i> <span>Yellow
+                            Seeds Oil</span></button>
+                </div>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-category="mustard">
+                    <div class="product-image"><span class="product-tag">Bestseller</span><img src="assets/images/products/yellow-product-1.jpeg"
+                            alt="Kachi Ghani mustard oil bottle"></div>
+                    <div class="product-info">
+                        <h3>Kachi Ghani Mustard Oil</h3><label class="visually-hidden" for="quantity-1">Quantity</label><select
+                            id="quantity-1" class="quantity-select">
+                            <option>500ml</option>
+                            <option selected>1 Litre</option>
+                            <option>5 Litres</option>
+                            <option>10 Litres</option>
+                        </select>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span>(428)</span></div>
+                        <p class="price" data-base="249">₹ 249</p><button class="button button-dark order-button">Order
+                            Now</button>
+                    </div>
+                </article>
+                <article class="product-card" data-category="black">
+                    <div class="product-image"><span class="product-tag">Bestseller</span><img src="assets/images/products/black-product-2.jpg"
+                            alt="Kachi Ghani mustard oil bottle"></div>
+                    <div class="product-info">
+                        <h3>Kachi Ghani Mustard Oil</h3><label class="visually-hidden" for="quantity-1">Quantity</label><select
+                            id="quantity-1" class="quantity-select">
+                            <option>500ml</option>
+                            <option selected>1 Litre</option>
+                            <option>5 Litres</option>
+                            <option>10 Litres</option>
+                        </select>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span>(428)</span></div>
+                        <p class="price" data-base="249">₹ 249</p><button class="button button-dark order-button">Order
+                            Now</button>
+                    </div>
+                </article>
+                <article class="product-card" data-category="yellow">
+                    <div class="product-image"><img src="assets/images/products/yellow-product-1.jpeg" alt="Yellow seed oil product"></div>
+                    <div class="product-info">
+                        <h3>Yellow Seeds Oil</h3><label class="visually-hidden" for="quantity-4">Quantity</label><select
+                            id="quantity-4" class="quantity-select">
+                            <option>500ml</option>
+                            <option selected>1 Litre</option>
+                            <option>5 Litres</option>
+                            <option>10 Litres</option>
+                        </select>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span>(275)</span></div>
+                        <p class="price" data-base="379">₹ 379</p><button class="button button-dark order-button">Order
+                            Now</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="purity-benefits" id="purity-story">
+            <div class="purity-panel">
+                <div class="section-heading light-heading">
+                    <h2>The Purity Story</h2>
+                    <p>From nature’s best fields to your kitchen.</p>
+                </div>
+                <div class="process-grid">
+                    <article class="process-card">
+                        <div class="imgRound">
+                            <img src="assets/images/process-1.jpg" alt="Mustard seeds">
+                            <span class="step-number">1</span>
+                        </div>
+                        <h3>Ethical Sourcing</h3>
+                        <p>Finest mustard seeds from trusted farmers.</p>
+                    </article>
+                    <article class="process-card">
+                        <div class="imgRound">
+                            <img src="assets/images/process-2.jpg" alt="Traditional oil press">
+                            <span class="step-number">2</span>
+                        </div>
+                        <h3>Traditional Cold-Pressing</h3>
+                        <p>Preserves natural nutrients and aroma.</p>
+                    </article>
+                    <article class="process-card">
+                            <div class="imgRound">
+                                <img src="assets/images/process-3.jpg" alt="Golden oil filtration">
+                                <span class="step-number">3</span>
+                            </div>
+                            <h3>Sediment Filtration</h3>
+                            <p>Pure, clear and natural oil.</p>
+                        </article>
+                    <article class="process-card">
+                            <div class="imgRound">
+                                <img src="assets/images/process-4.jpg" alt="Quality testing">
+                                <span class="step-number">4</span>
+                            </div>
+                            <h3>Certified Quality Check</h3>
+                            <p>Tested for purity, safety and freshness.</p>
+                        </article>
+                    <!-- <article class="process-card"><img src="assets/images/process-2.jpg" alt="Traditional oil press"><span
+                            class="step-number">2</span>
+                        <h3>Traditional Cold-Pressing</h3>
+                        <p>Preserves natural nutrients and aroma.</p>
+                    </article>
+                    <article class="process-card"><img src="assets/images/process-3.jpg" alt="Golden oil filtration"><span
+                            class="step-number">3</span>
+                        <h3>Sediment Filtration</h3>
+                        <p>Pure, clear and natural oil.</p>
+                    </article>
+                    <article class="process-card"><img src="assets/images/process-4.jpg" alt="Quality testing"><span class="step-number">4</span>
+                        <h3>Certified Quality Check</h3>
+                        <p>Tested for purity, safety and freshness.</p>
+                    </article> -->
+                </div>
+            </div>
+            <div class="benefits-panel">
+                <div class="section-heading light-heading">
+                    <h2>Healthy Benefits</h2>
+                    <p>Goodness in every drop.</p>
+                </div>
+                <div class="benefits-grid">
+                    <article class="benefit-card">
+                        <img src="assets/images/benifit-1.png" alt="High Smoke Point">
+                        <h3>High Smoke Point</h3>
+                        <p>Perfect for frying</p>
+                    </article>
+                    <article class="benefit-card">
+                        <img src="assets/images/benifit-2.png" alt="Rich in MUFA &amp; Omega-3">
+                        <h3>Rich in MUFA &amp; Omega-3</h3>
+                        <p>Everyday nourishment</p>
+                    </article>
+                    <article class="benefit-card">
+                            <img src="assets/images/benifit-3.png" alt="Heart-Conscious Choice">
+                        <h3>Heart-Conscious Choice</h3>
+                        <p>For a balanced diet</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="reviews-section section-pad" id="customer-reviews">
+            <div class="section-heading-row">
+                <div>
+                    <h2>What Our Customers Say</h2>
+                    <p>Real people. Real experiences.</p>
+                </div>
+                <div class="review-controls"><button class="round-control" id="reviews-prev" aria-label="Previous reviews">‹</button><button
+                        class="round-control" id="reviews-next" aria-label="Next reviews">›</button></div>
+            </div>
+            <div class="review-track" id="review-track">
+                <article class="review-card">
+                    <div class="review-person"><img src="assets/images/review-1.jpg" alt="Customer Priya Sharma">
+                        <div>
+                            <h3>Priya Sharma <span class="verified">✓ Verified Buyer</span></h3>
+                            <p>Home Cook</p><span class="stars">★★★★★</span>
+                        </div>
+                    </div>
+                    <blockquote>“The aroma and taste are simply outstanding. This is the only mustard oil we use in our
+                        kitchen now!”</blockquote>
+                    <p class="review-role"><i class="chef"></i> &nbsp; Home Cook</p>
+                </article>
+                <article class="review-card">
+                    <div class="review-person"><img src="assets/images/review-2.jpg" alt="Chef Rohan Mehta">
+                        <div>
+                            <h3>Chef Rohan Mehta <span class="verified">✓ Verified Buyer</span></h3>
+                            <p>Professional Chef</p><span class="stars">★★★★★</span>
+                        </div>
+                    </div>
+                    <blockquote>“Excellent quality and purity. Adds wonderful depth of flavour to my dishes. Truly
+                        premium!”</blockquote>
+                    <p class="review-role"><i class="chef"></i> &nbsp; Professional Chef</p>
+                </article>
+                <article class="review-card">
+                    <div class="review-person"><img src="assets/images/review-3.jpg" alt="Customer Anjali Verma">
+                        <div>
+                            <h3>Anjali Verma <span class="verified">✓ Verified Buyer</span></h3>
+                            <p>Home Cook</p><span class="stars">★★★★★</span>
+                        </div>
+                    </div>
+                    <blockquote>“I trust this brand for its purity and natural goodness. My family loves it!”</blockquote>
+                    <p class="review-role">♧ &nbsp; Home Cook</p>
+                </article>
+                <article class="review-card">
+                        <div class="review-person"><img src="assets/images/review-3.jpg" alt="Customer Anjali Verma">
+                            <div>
+                                <h3>Anjali Verma <span class="verified">✓ Verified Buyer</span></h3>
+                                <p>Home Cook</p><span class="stars">★★★★★</span>
+                            </div>
+                        </div>
+                        <blockquote>“I trust this brand for its purity and natural goodness. My family loves it!”</blockquote>
+                        <p class="review-role"><i class="chef"></i> &nbsp; Home Cook</p>
+                    </article>
+            </div>
+            <div class="review-cta"><button class="button button-gold" id="open-review">Write a Review <span>›</span></button></div>
+        </section>
+    </main>
+       <footer id="footer-section">
+        <div class="footer-main">
+            <div class="footer-brand-col">
+                <a class="footer-logo" href="#home">
+                    <span class="brand-mark"></span><strong>Omswp Organic</strong>
+                </a>
+                <p>Bringing you pure, authentic edible oils — crafted by nature, for a healthier you.</p>
+                <div class="social-links">
+                    <a href="#footer-section" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#footer-section" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#footer-section" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#footer-section" aria-label="YouTube"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
+            </div>
+            <div class="footer-col">
+                <h2><i class="fa fa-shopping-basket" aria-hidden="true"></i> Shop</h2>
+                <a href="#premium-oils" data-footer-filter="all">All Oils</a>
+                <a href="#premium-oils" data-footer-filter="mustard">Kachi Ghani</a>
+                <a href="#premium-oils" data-footer-filter="black">Black Seed</a>
+                <a href="#premium-oils" data-footer-filter="yellow">Yellow Seed</a>
+            </div>
+            <div class="footer-col">
+                <h2><i class="fa fa-pagelines" aria-hidden="true"></i> About Us</h2>
+                <a href="#purity-story">Our Story</a>
+                <a href="#purity-story">The Purity Process</a>
+                <a href="#purity-story">Our Promise</a>
+            </div>
+            <div class="footer-col contact-col">
+                <h2><i class="fa fa-envelope-o" aria-hidden="true"></i> Get in Touch</h2>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; +91 9999 00000</p>
+                <p><i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; support@omswp.com</p>
+                <p><i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp; Mon–Sat: 9:00am–8:00pm</p>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; 45, ABC Road,<br> &nbsp;&nbsp;&nbsp; Uttar Pradesh, India</p>
+                <form class="newsletter-form"><label for="newsletter-email">Subscribe for updates</label>
+                    <div><input id="newsletter-email" type="email" placeholder="Your email address" required><button
+                            type="submit" aria-label="Subscribe">→</button></div>
+                </form>
+            </div>
+        </div>
+        <div class="payment-strip"><span>▣ &nbsp; 100% Secure Payment Gateways</span>
+            <div class="payment-logos"><b>VISA</b><b class="mastercard">●●</b><b>RuPay</b><b>UPI</b></div>
+        </div>
+        <div class="footer-bottom"><span>© 2026 Omswp Organic | All Rights Reserved</span><span><a href="#footer-section">Privacy
+                    Policy</a> &nbsp;|&nbsp; <a href="#footer-section">Terms &amp; Conditions</a></span></div>
+    </footer>
+    <div class="modal-backdrop" id="review-modal" hidden>
+        <section class="review-modal" role="dialog" aria-modal="true" aria-labelledby="review-modal-title"><button
+                class="modal-close" id="close-review" aria-label="Close review form">×</button>
+            <p class="eyebrow">Your feedback matters</p>
+            <h2 id="review-modal-title">Write a Review</h2>
+            <form id="review-form" class="review-form"><label for="review-name">Your name</label><input id="review-name"
+                    name="name" required placeholder="Enter your name"><label for="review-email">Email address</label><input
+                    id="review-email" name="email" type="email" required placeholder="you@example.com"><label for="review-rating">Your
+                    rating</label><select id="review-rating" name="rating">
+                    <option value="5">★★★★★ — Excellent</option>
+                    <option value="4">★★★★☆ — Very good</option>
+                    <option value="3">★★★☆☆ — Good</option>
+                    <option value="2">★★☆☆☆ — Fair</option>
+                    <option value="1">★☆☆☆☆ — Needs improvement</option>
+                </select><label for="review-message">Your review</label><textarea id="review-message" name="message"
+                    rows="4" required placeholder="Tell us about your experience"></textarea><button class="button button-dark"
+                    type="submit">Submit Review</button>
+                <p class="form-message" id="review-message-status" aria-live="polite"></p>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
