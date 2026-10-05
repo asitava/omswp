@@ -22,8 +22,13 @@
             Omswp Organic
         </a>
         <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-        <nav class="main-nav" aria-label="Main navigation"><a href="#home">Shop</a><a href="#premium-oils">Categories</a><a
-                href="#purity-story">About Us</a><a href="#customer-reviews">Reviews</a><a href="#footer-section">Contact</a></nav>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#home">Shop</a>
+            <a href="#premium-oils">Categories</a>
+            <a href="about.html">About Us</a>
+            <a href="#customer-reviews">Reviews</a>
+            <a href="#footer-section">Contact</a>
+        </nav>
         <div class="header-actions">
             <form class="search-form" role="search">
                 <label class="visually-hidden" for="site-search">Search products</label>
@@ -349,59 +354,7 @@
             </form>
         </section>
     </div>
-     <div class="modal-backdrop product-modal-backdrop" id="product-modal" hidden>
-        <section class="product-modal" role="dialog" aria-modal="true" aria-labelledby="product-modal-title">
-            <button class="modal-close" id="close-product-modal" aria-label="Close product details">×</button>
-            <div class="product-modal-content">
-                <div class="product-modal-media"><img id="product-modal-image" src="" alt=""><span class="product-modal-badge">Premium
-                        Quality</span></div>
-                <div class="product-modal-details">
-                    <p class="eyebrow">Product Details</p>
-                    <h2 id="product-modal-title">Product Name</h2>
-                    <div class="product-modal-rating"><span class="stars">★★★★★</span><span id="product-modal-rating-text">Verified
-                            customer rating</span></div>
-                    <p id="product-modal-description" class="product-modal-description"></p>
-                    <div class="product-modal-meta"><span id="product-modal-category"></span><span id="product-modal-price"></span></div>
-                    <div class="product-modal-form-wrap">
-                        <h3>Share your experience</h3>
-                        <form id="product-review-form" class="product-review-form">
-                            <div class="form-grid-two">
-                                <div><label for="product-review-name">Name</label><input id="product-review-name" name="name"
-                                        type="text" required placeholder="Your name"></div>
-                                <div><label for="product-review-email">Email ID</label><input id="product-review-email"
-                                        name="email" type="email" required placeholder="you@example.com"></div>
-                            </div>
-                            <div><label for="product-review-text">Review</label><textarea id="product-review-text" name="review"
-                                    rows="5" required placeholder="Write your review..."></textarea></div>
-                            <button class="button button-dark" type="submit">Submit Review <span>→</span></button>
-                            <p class="form-message" id="product-review-status" aria-live="polite"></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="modal-backdrop" id="review-modal" hidden>
-        <section class="review-modal" role="dialog" aria-modal="true" aria-labelledby="review-modal-title"><button
-                class="modal-close" id="close-review" aria-label="Close review form">×</button>
-            <p class="eyebrow">Your feedback matters</p>
-            <h2 id="review-modal-title">Write a Review</h2>
-            <form id="review-form" class="review-form"><label for="review-name">Your name</label><input id="review-name"
-                    name="name" required placeholder="Enter your name"><label for="review-email">Email address</label><input
-                    id="review-email" name="email" type="email" required placeholder="you@example.com"><label for="review-rating">Your
-                    rating</label><select id="review-rating" name="rating">
-                    <option value="5">★★★★★ — Excellent</option>
-                    <option value="4">★★★★☆ — Very good</option>
-                    <option value="3">★★★☆☆ — Good</option>
-                    <option value="2">★★☆☆☆ — Fair</option>
-                    <option value="1">★☆☆☆☆ — Needs improvement</option>
-                </select><label for="review-message">Your review</label><textarea id="review-message" name="message"
-                    rows="4" required placeholder="Tell us about your experience"></textarea><button class="button button-dark"
-                    type="submit">Submit Review</button>
-                <p class="form-message" id="review-message-status" aria-live="polite"></p>
-            </form>
-        </section>
-    </div>
+    
 
     <!-- mdoel section strat here -->
     <div class="modal-backdrop product-modal-backdrop" id="product-modal" hidden>
