@@ -95,23 +95,6 @@ img{
   text-indent: -99999px;
   border-radius: 7px;
 }
-/*.brand-mark{
-  display:inline-grid;
-  place-items:center;
-  width:38px;
-  height:38px;
-  border-radius:12px 12px 12px 3px;
-  border:1px solid var(--gold);
-  background:linear-gradient(145deg,#fff0a3,#9dc84d 65%,#f8d15d);
-  color:#24572d;
-  font:700 26px Georgia,serif;
-  box-shadow:inset 0 0 0 3px #ffffff59
-}
-.brand-name{
-  display:none;
-  font-size:12px;
-  font-weight:700
-} */
 .main-nav{
   display:flex;
   align-items:center;
@@ -1385,12 +1368,10 @@ footer{
 /* Change update: Roboto typography, image-led hero carousel, and visible purity background. */
 
 .hero h1 {
-   font-family: "Roboto", sans-serif !important;
    font-weight: 700;
    letter-spacing: -0.035em;
 }
 .hero-side-note {
-   font-family: "Roboto", sans-serif !important;
    font-style: normal;
    font-weight: 300;
 }
