@@ -246,7 +246,7 @@ background: -moz-linear-gradient(90deg,#525f48 0%, #43523c 80%);
   position:absolute;
   z-index:-2;
   inset:0 0 0 23%;
-  background:url("../images/hero-oil-art.jpg") center right/cover no-repeat;
+  background:url("../images/hero-oil-art-yellow.jpg") center right/cover no-repeat;
   transition:transform 1.2s
 }
 .hero-content{
@@ -843,7 +843,8 @@ footer{
 .footer-col>a,.footer-col>p{
   margin:0;
   color:#d6ded4;
-  font-size:11px
+  font-size:12px;
+  line-height: 17px;
 }
 .footer-col>a{
   transition:color .2s,transform .2s
@@ -1401,13 +1402,13 @@ footer{
    opacity: 0;
 }
 .hero-art.slide-0 {
-   background-image: url("../images/hero-oil-art.jpg");
+   background-image: url("../images/hero-oil-art-yellow.jpg");
 }
 .hero-art.slide-1 {
-   background-image: url("../images/hero-oil-pour.png");
+   background-image: url("../images/hero-oil-art-yellow920.jpg");
 }
 .hero-art.slide-2 {
-   background-image: url("../images/hero-bottle.jpg");
+   background-image: url("../images/hero-oil-art-Black.jpg");
 }
 /* Use the high-resolution oil-pour artwork behind both dark feature panels. */
 /* .purity-benefits {
@@ -1515,7 +1516,7 @@ no inline styling is required. */
   display: grid;
   place-items: center;
   min-height: 500px;
-  padding: 50px;
+  padding: 0px;
   overflow: hidden;
   background: linear-gradient(145deg, #f8f3e5, #fffdf8 55%, #ece5d1);
   border-radius: 16px 0 0 16px;
